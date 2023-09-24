@@ -1,30 +1,56 @@
+body {
+    font-size: 17;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
 * {
     margin: 0;
     padding: ;
-    font-family: Arial, Helvetica, sans-serif;
     box-sizing: border-box;
 }
 
-
-.teks1 {
-    color: white;
-    font-size: 25;
-    font-family: Arial, Helvetica, sans-serif;
-    position: relative;
-    top: 300px;
-    justify-content: center;
+.teksprofile {
+    margin-right: 700px;
+    margin-top: -480px;
     text-align: center;
+    font-size: 50px;
 }
 
-.teks2 {
-    color: white;
-    font-size: 15;
-    position: relative;
-    font-family: Arial, Helvetica, sans-serif;
-    top: 420px;
-    justify-content: center;
+.teksprofile2 {
+    margin-right: 640px;
+    margin-top: 30;
     text-align: center;
+    font-size: 50px;
 
+}
+
+/* HALAMAN PROFILE */
+
+.profile {
+    font-family: 'Courier New', Courier, monospace;
+    margin-left: 530px;
+    margin-top: 20px;
+}
+
+.instagramlogo {
+    position: absolute;
+    bottom: 450px;
+    left: 520;
+    
+}
+
+.githublogo{
+    position: absolute;
+    bottom: 450px;
+    left: 630px;
+}
+
+.facebooklogo {
+    position: absolute;
+    bottom: 450px;
+    left: 575px;
 }
 
 
@@ -82,22 +108,12 @@ nav ul li a {
     position: relative;
 }
 
-
-nav ul li a::after {
-    content: '';
-    width: 0;
-    height: 3px;
-    background: white;
-    position: absolute;
-    left: 0;
-    bottom: -6px;
-    transition: 0.1s;
+.profileimg {
+    border: 5px solid white;
+    border-radius: 20px;
+    width: 350px;
+    margin-left: 100px;
+    margin-top: 50px;
 }
-
-nav ul li a:hover::after {
-    width: 100%;
-}
-
-
 
 
